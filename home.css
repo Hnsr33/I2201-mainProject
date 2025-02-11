@@ -1,0 +1,234 @@
+html{
+    font-family: "Nunito Sans", "Playfair Display", "Quicksand", serif;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style: none;    
+}
+
+a{
+    text-decoration: none;
+}
+/*header start*/
+.header{
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.food_lover{
+    padding: 20px;
+    background-color: #727D73;
+    justify-content: center;
+    text-align: center;
+}
+
+.food_lover p{
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.nav_bar{
+    display: flex;
+    padding: 10px;
+    background-color: #A6AFA7;
+    text-align: center;
+    justify-content: center;
+}
+
+.nav_bar ul{
+    display: flex;
+    gap: 50px;
+}
+
+.nav_bar a{
+    color: black;
+    font-weight: 700;
+    font-size: larger;
+    transition: color 0.4s ease, font-size 0.25s ease;
+}
+
+.nav_bar a:hover{
+    color: whitesmoke;
+    font-size: 21.8px;
+    border-bottom: #f8f8f8 solid;
+}
+/*header end*/
+
+/*main start*/
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 350vh;
+}
+
+.middle{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.middle button {
+    padding: 20px;
+    max-width: 150px;
+    background-color: #727D73; 
+    color: antiquewhite;
+    margin-left: 160px;
+    margin-top: 60px;
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.middle button a{
+    background-color: #727D73; 
+    color: antiquewhite;
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-weight: 500;
+}
+
+.middle button:hover{
+    transform: scale(1.1);
+}
+
+.middle p{
+    font-size: large;
+    font-weight: bolder;
+}
+
+.images{
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+    margin-top: 200px;
+}
+
+.images img{
+    height: 250px;
+    box-shadow: 0 4px 8px rgb(213, 121, 121);
+    transition: transform 0.4s ease;
+    border-radius: 15px;
+}
+
+.images img:hover{
+    transform: scale(1.07);
+    box-shadow: 8px 8px 8px rgb(213, 121, 121);
+}
+
+.stress{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.stress h3{
+    padding-top: 30px;
+    color: #12b2b7;
+}
+
+.chefs{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.chefs img{
+    height: 300px;
+    box-shadow: 0 4px 8px rgb(213, 121, 121);
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.chefs img:hover{
+    transform: scale(1.08);
+    box-shadow: 8px 8px 8px rgb(213, 121, 121);
+}
+
+.chefs h3{
+    padding-top: 30px;
+    color: #12b2b7;
+}
+
+.chefs h3, p{
+    text-align: center;   
+    padding-top: 30px; 
+}
+
+.about{
+    display: flex;
+    gap: 40px;
+    margin-left: 160px;
+    margin-right: 180px;
+    height: 600px;
+    border-radius: 15px;
+}
+
+.about p{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.about img{
+    height: 400px;
+    margin-top: 40px;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.about img:hover{
+    transform: scale(1.06);
+}
+
+.about button{
+    padding: 25px;
+    max-width: 250px;
+    background-color: #727D73; 
+    color: antiquewhite;
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+#founder a{
+    background-color: #727D73; 
+    color: antiquewhite;
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-weight: 500;
+}
+
+.about button:hover{
+    transform: scale(1.1);
+}
+
+
+
+/*main end*/
+
+
+
